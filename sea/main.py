@@ -1,10 +1,9 @@
-from typing import Optional
-
 from fastapi import FastAPI
 
 from sea.logic import closest
 
 app = FastAPI()
+
 
 @app.get("/which/{type}")
 def read_item(type: str, latitude: float, longitude: float):

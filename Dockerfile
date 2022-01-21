@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./sea /code/sea
 
 #
-CMD ["uvicorn", "sea.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "sea.main:app", "--host", "0.0.0.0", "--port", "$PORT"]
