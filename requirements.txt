@@ -1,0 +1,9 @@
+--index-url https://mirrors.sustech.edu.cn/pypi/simple
+jmespath
+sparqlwrapper
+requests
+pandas
+fastapi
+pydantic
+uvicorn
+geopy
